@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+    <div class="header">
+        <h1 id="heading">Hello World</h1>
+        <p>With Brian Sy</p>
+    </div>
+
+    <div class="container">
+
+        <button onclick="changeText2()">Click 4</button>
+
+    </div>
+
+<script type="text/javascript">
+
+function changeText2(){
+    var heading = document.getElementById('heading'); //<h1 id="heading">Hello World</h1>
+    heading.innerHTML = 'You Clicked 4!'; //Change the heading to 'You Clicked 4!' instead of 'Hello World'.
+}
+
+</script>
+</body>
+</html>
